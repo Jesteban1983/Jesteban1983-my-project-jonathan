@@ -1,0 +1,61 @@
+body{
+    background-color: grey;
+    font-family: Helvetica;
+}
+.header_principal{
+    background: white;
+    
+}
+.header_principal > div{
+	width: 500px;
+	margin: auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+   
+}
+article{
+    width: 500px;
+}
+.post{
+    display: flex;
+    background:white;
+    padding: 10px 5px 10px 8px;
+}
+.sub_title{
+    width: 80%;
+}
+
+.sub_title h2{
+    font-size: 18px;
+    margin:0;
+}
+.date {
+    
+   color:grey;
+   width:20%;
+   padding-right: 14px;
+}
+.date p{
+    font-size: 12px;
+    text-align: right;
+    margin:0;
+}
+
+.photo img{
+    width: 500px;
+    background:white;
+    display: block;
+}
+
+.resumen{
+    background-color:white;
+    padding:3px 24px;
+}
+
+span{
+	font-size: 15px;
+	font-weight: 550;
+}
